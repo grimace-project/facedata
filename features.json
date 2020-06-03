@@ -1,0 +1,248 @@
+{
+  "points": {
+    "m0_s_p0": { "x": 136, "y": 144 },
+    "m0_s_p1": { "x": 140, "y": 52 },
+    "m1_s_p0": { "x": 109, "y": 125 },
+    "m1_s_p1": { "x": 119, "y": 25 },
+    "m2_s_p0": { "x": 73, "y": 127 },
+    "m2_s_p1": { "x": 79, "y": 19 },
+    "m3_s_p0": { "x": 26, "y": 152 },
+    "m3_s_p1": { "x": 27, "y": 30 },
+    "m5_s_p0": { "x": 87, "y": 244 },
+    "m5_s_p1": { "x": 87, "y": 170 },
+    "m6_s_p0": { "x": 36, "y": 345 },
+    "m6_s_p1": { "x": 36, "y": 262 },
+    "m7_s_p0": { "x": 58, "y": 349 },
+    "m7_s_p1": { "x": 92, "y": 269 },
+    "m8_s_p0": { "x": 79, "y": 358 },
+    "m8_s_p1": { "x": 119, "y": 335 },
+    "m8_s_p2": { "x": 147, "y": 303 },
+    "m9_s_p0": { "x": 89, "y": 382 },
+    "m9_s_p1": { "x": 133, "y": 378 },
+    "m9_s_p2": { "x": 155, "y": 331 },
+    "m10_s_p0": { "x": 89, "y": 411 },
+    "m10_s_p1": { "x": 131, "y": 424 },
+    "m11_s_p0": { "x": 75, "y": 425 },
+    "m11_s_p1": { "x": 80, "y": 457 },
+    "m11_s_p2": { "x": 59, "y": 488 },
+    "m12_s_p0": { "x": 25, "y": 447 },
+    "m12_s_p1": { "x": 44, "y": 493 },
+    "m14_s_p0": { "x": 99, "y": 114 },
+    "m14_s_p1": { "x": 70, "y": 137 },
+    "m14_s_p2": { "x": 55, "y": 159 },
+    "m15_s_p0": { "x": 8, "y": 447 },
+    "m15_s_p1": { "x": 8, "y": 502 },
+    "m041_s_p0": { "x": 116, "y": 171 },
+    "m041_s_p1": { "x": 116, "y": 152 },
+    "m042_s_p0": { "x": 98, "y": 171 },
+    "m042_s_p1": { "x": 98, "y": 224 },
+    "m16_s_p0": { "x": 64, "y": 399 },
+    "m16_s_p1": { "x": -10, "y": 399 },
+    "h_meb6_s_p0": { "x": 14, "y": 122 },
+    "h_meb6_s_p1": { "x": 14, "y": 211 },
+    "h_meb7_s_p0": { "x": 42, "y": 122 },
+    "h_meb7_s_p1": { "x": 131, "y": 235 },
+    "h_mey8_s_p0": { "x": 49, "y": 165 },
+    "h_mey8_s_p1": { "x": 123, "y": 269 },
+    "h_mli9_s_p0": { "x": 0, "y": 339 },
+    "h_mli9_s_p1": { "x": 0, "y": 354 },
+    "h_mli10_s_p0": { "x": 43, "y": 446 },
+    "h_mli10_s_p1": { "x": 58, "y": 465 },
+    "h_mli11_s_p0": { "x": -21 ,"y": 449},
+    "h_mli11_s_p1": { "x": -21, "y": 462 },
+    "h_mey12_s_p0": { "x": 32, "y": 215 },
+    "h_mey12_s_p1": { "x": 32, "y": 175 },
+    "h_teethupper_p0": { "x": 196, "y": 399 },
+    "h_teethupper_p1": { "x": 196, "y": 337 },
+    "h_teethlower_p0": { "x": 196, "y": 417 },
+    "h_teethlower_p1": { "x": 196, "y": 462 },
+    "p1": {
+      "x": 150,
+      "y": 160,
+      "muscleweights": {
+        "m0": 0.59,
+        "h_meb6": 1
+      }
+    },
+    "p2": {
+      "x": 119,
+      "y": 130,
+      "muscleweights": {
+        "m1": 0.3,
+        "m2": 0.15,
+        "m14": 0.24,
+        "h_meb6": 1
+      }
+    },
+    "p3": {
+      "x": 80,
+      "y": 125,
+      "muscleweights": {
+        "m2": 0.29,
+        "m14": 0.18,
+        "h_meb6": 1,
+        "h_meb7": 0.29
+      }
+    },
+    "p4": {
+      "x": 32,
+      "y": 153,
+      "muscleweights": {
+        "m3": 0.59,
+        "h_meb6": 1
+      }
+    },
+    "p5": { "x": 125, "y": 210 },
+    "p6": {
+      "x": 105,
+      "y": 174,
+      "muscleweights": {
+        "m041": 1,
+        "m042": 1
+      }
+    },
+    "p7": {
+      "x": 60,
+      "y": 178,
+      "muscleweights": {
+        "m041": 0.67,
+        "m042": 0.67,
+        "h_mey8": 0.33
+      }
+    },
+    "p8": {
+      "x": 43,
+      "y": 212,
+      "muscleweights": {
+        "h_mey12": 1
+      }
+    },
+    "p11": { "x": 56, "y": 212 },
+    "p10": { "x": 80, "y": 235 },
+    "p21": { "x": -10, "y": 399 },
+    "p20": { "x": 0, "y": 399 },
+    "p16": { "x": 15, "y": 399 },
+    "p15": { "x": 30, "y": 399 },
+    "p14": { "x": 45, "y": 400 },
+    "p13": { "x": 60, "y": 399 },
+    "p17": { "x": 50, "y": 399 },
+    "p18": { "x": 40, "y": 400 },
+    "p19": { "x": 25, "y": 401 },
+    "llj_p1": { "x": 0, "y": 401 },
+    "llj_p0": { "x": -10, "y": 401 }
+  },
+  "splines": {
+    "m0_s": { "type": "line", "points": ["m0_s_p0", "m0_s_p1"] },
+    "m1_s": { "type": "line", "points": ["m1_s_p0", "m1_s_p1"] },
+    "m2_s": { "type": "line", "points": ["m2_s_p0", "m2_s_p1"] },
+    "m3_s": { "type": "line", "points": ["m3_s_p0", "m3_s_p1"] },
+    "m5_s": { "type": "line", "points": ["m5_s_p0", "m5_s_p1"] },
+    "m6_s": { "type": "line", "points": ["m6_s_p0", "m6_s_p1"] },
+    "m7_s": { "type": "line", "points": ["m7_s_p0", "m7_s_p1"] },
+    "m8_s": { "type": "quadraticbezier", "points": ["m8_s_p0", "m8_s_p1", "m8_s_p2"] },
+    "m9_s": { "type": "quadraticbezier", "points": ["m9_s_p0", "m9_s_p1", "m9_s_p2"] },
+    "m10_s": { "type": "line", "points": ["m10_s_p0", "m10_s_p1"] },
+    "m11_s": { "type": "quadraticbezier", "points": ["m11_s_p0", "m11_s_p1", "m11_s_p2"] },
+    "m12_s": { "type": "line", "points": ["m12_s_p0", "m12_s_p1"] },
+    "m14_s": { "type": "quadraticbezier", "points": ["m14_s_p0", "m14_s_p1", "m14_s_p2"] },
+    "m15_s": { "type": "line", "points": ["m15_s_p0", "m15_s_p1"] },
+    "m16_s": { "type": "line", "points": ["m16_s_p0", "m16_s_p1"] },
+    "m041_s": { "type": "line", "points": ["m041_s_p0", "m041_s_p1"] },
+    "m042_s": { "type": "line", "points": ["m042_s_p0", "m042_s_p1"] },
+    "h_meb6_s": { "type": "line", "points": ["h_meb6_s_p0", "h_meb6_s_p1"] },
+    "h_meb7_s": { "type": "line", "points": ["h_meb7_s_p0", "h_meb7_s_p1"] },
+    "h_mey8_s": { "type": "line", "points": ["h_mey8_s_p0", "h_mey8_s_p1"] },
+    "h_mli9_s": { "type": "line", "points": ["h_mli9_s_p0", "h_mli9_s_p1"] },
+    "h_mli10_s": { "type": "line", "points": ["h_mli10_s_p0", "h_mli10_s_p1"] },
+    "h_mli11_s": { "type": "line", "points": ["h_mli11_s_p0", "h_mli11_s_p1"] },
+    "h_mey12_s": { "type": "line", "points": ["h_mey12_s_p0", "h_mey12_s_p1"] },
+    "h_teethupper_s": { "type": "line", "points": ["h_teethupper_s_p0", "h_teethupper_s_p1"] },
+    "h_teethlower_s": { "type": "line", "points": ["h_teethlower_s_p0", "h_teethlower_s_p1"] },
+    "s1": { "type": "cubicbezier", "points": ["p1", "p2", "p3", "p4"] },
+    "s2": { "type": "cubicbezier", "points": ["p5", "p6", "p7", "p8"] },
+    "s3": { "type": "cubicbezier", "points": ["p8", "p11", "p10", "p5"] },
+    "s5": { "type": "cubicbezier", "points": ["p16", "p15", "p14", "p13"] },
+    "s6": { "type": "cubicbezier", "points": ["p13", "p17", "p18", "p19"] }
+  },
+  "muscles": {
+    "m0": { "group": "feature", "label": "m00", "spline": "m0_s" },
+    "m1": { "group": "feature", "label": "m01", "spline": "m1_s" },
+    "m2": { "group": "feature", "label": "m02", "spline": "m2_s" },
+    "m3": { "group": "feature", "label": "m03", "spline": "m3_s" },
+    "m5": { "group": "feature", "label": "m05", "spline": "m5_s" },
+    "m6": { "group": "feature", "label": "m06", "spline": "m6_s" },
+    "m7": { "group": "feature", "label": "m07", "spline": "m7_s" },
+    "m8": { "group": "feature", "label": "m08", "spline": "m8_s" },
+    "m9": { "group": "feature", "label": "m09", "spline": "m9_s" },
+    "m10": { "group": "feature", "label": "m10", "spline": "m10_s" },
+    "m11": { "group": "feature", "label": "m11", "spline": "m11_s" },
+    "m12": { "group": "feature", "label": "m12", "spline": "m12_s" },
+    "m14": { "group": "feature", "label": "m14", "spline": "m14_s" },
+    "m15": { "group": "feature", "label": "m15", "spline": "m15_s" },
+    "m041": { "group": "feature", "label": "m041", "spline": "m041_s" },
+    "m042": { "group": "feature", "label": "m042", "spline": "m042_s" },
+    "m16": { "group": "feature", "label": "m16", "spline": "m16_s" },
+    "h_meb6": { "group": "feature", "label": "h_meb6", "spline": "h_meb6_s" },
+    "h_meb7": { "group": "feature", "label": "h_meb7", "spline": "h_meb7_s" },
+    "h_mey8": { "group": "feature", "label": "h_mey8", "spline": "h_mey8_s" },
+    "h_mli9": { "group": "feature", "label": "h_mli9", "spline": "h_mli9_s" },
+    "h_mli10": { "group": "feature", "label": "h_mli10", "spline": "h_mli10_s" },
+    "h_mli11": { "group": "feature", "label": "h_mli11", "spline": "h_mli11_s" },
+    "h_mey12": { "group": "feature", "label": "h_mey12", "spline": "h_mey12_s" },
+    "h_teethupper": { "group": "feature", "label": "h_teethupper", "spline": "h_teethupper_s" },
+    "h_teethlower": { "group": "feature", "label": "h_teethlower", "spline": "h_teethlower_s" }
+  },
+  "musclegroups": {
+    "feature": {
+      "color": "#d16d00",
+      "width": 2,
+      "alpha": 0.3,
+      "zindex": 0
+    }
+  },
+  "features": [
+    {
+      "label": "eyebrow",
+      "stroked": true,
+      "mirrored": true,
+      "segments": [
+        {
+          "id": "f1",
+          "spline": "s1",
+          "label": "eyebrow",
+          "strokestyle": {
+            "type": "brush",
+            "startwidth": 1,
+            "maxwidth": 7,
+            "endwidth": 3,
+            "alpha": 1,
+            "color": "#404040"
+          }
+        }
+
+      ]
+    },
+    {
+      "label": "eye",
+      "stroked": true,
+      "filled": true,
+      "mirrored": true,
+      "segments": [
+        {
+          "id": "f2",
+          "spline": "s2",
+          "label": "upperlid",
+          "alpha": 1,
+          "strokestyle": {
+            "type": "brush",
+            "startwidth": 1,
+            "maxwidth": 2,
+            "endwidth": 1,
+            "alpha": 1,
+            "color": "#404040"
+          }
+        }
+      ]
+    }
+  ]
+}
