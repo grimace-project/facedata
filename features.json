@@ -117,19 +117,121 @@
         "h_mey12": 1
       }
     },
+    "p10": {
+      "x": 80,
+      "y": 235,
+      "muscleweights": {
+        "m5": 1
+      }
+    },
     "p11": { "x": 56, "y": 212 },
-    "p10": { "x": 80, "y": 235 },
-    "p21": { "x": -10, "y": 399 },
-    "p20": { "x": 0, "y": 399 },
-    "p16": { "x": 15, "y": 399 },
-    "p15": { "x": 30, "y": 399 },
-    "p14": { "x": 45, "y": 400 },
-    "p13": { "x": 60, "y": 399 },
-    "p17": { "x": 50, "y": 399 },
-    "p18": { "x": 40, "y": 400 },
-    "p19": { "x": 25, "y": 401 },
-    "llj_p1": { "x": 0, "y": 401 },
-    "llj_p0": { "x": -10, "y": 401 }
+    "p21": {
+      "x": -10,
+      "y": 399,
+      "muscleweights": {
+        "m6": 1,
+        "h_mli9": 0.4
+      }
+    },
+    "p20": {
+      "x": 0,
+      "y": 399,
+      "muscleweights": {
+        "m6": 1,
+        "h_mli9": 0.4
+      }
+    },
+    "p16": {
+      "x": 15,
+      "y": 399,
+      "muscleweights": {
+        "m6": 1,
+        "h_mli9": 0.25
+      }
+    },
+    "p15": {
+      "x": 30,
+      "y": 399,
+      "muscleweights": {
+        "m6": 0.95,
+        "m7": 0.1,
+        "m8": 0.1,
+        "m10": 0.2,
+        "m16": 0.1
+      }
+    },
+    "p14": {
+      "x": 45,
+      "y": 400,
+      "muscleweights": {
+        "m6": 0.95,
+        "m7": 0.5,
+        "m8": 0.29,
+        "m10": 0.29,
+        "m16": 0.3
+      }
+    },
+    "p13": {
+      "x": 60,
+      "y": 399,
+      "muscleweights": {
+        "m8": 0.23,
+        "m9": 0.5,
+        "m10": 0.09,
+        "m11": 0.23,
+        "m16": 1
+      }
+    },
+    "p17": {
+      "x": 50,
+      "y": 399,
+      "muscleweights": {
+        "m9": 0.13,
+        "m10": 0.3,
+        "m12": 0.5,
+        "m15": 0.4,
+        "m16": 0.3,
+        "h_mli10": 1
+      }
+    },
+    "p18": {
+      "x": 40,
+      "y": 400,
+      "muscleweights": {
+        "m9": 0.05,
+        "m10": 0.31,
+        "m12": 0.31,
+        "m15": 0.7,
+        "m16": 0.1,
+        "h_mli10": 0.2
+      }
+    },
+    "p19": {
+      "x": 25,
+      "y": 401,
+      "muscleweights": {
+        "m10": 0.13,
+        "m12": 0.13,
+        "m15": 0.85,
+        "h_mli10": 0.1
+      }
+    },
+    "llj_p1": {
+      "x": 0,
+      "y": 401,
+      "muscleweights": {
+        "m15": 1,
+        "h_mli11": 1
+      }
+    },
+    "llj_p0": {
+      "x": -10,
+      "y": 40,
+      "muscleweights": {
+        "m15": 1,
+        "h_mli11": 1
+      }
+     }
   },
   "splines": {
     "m0_s": { "type": "line", "points": ["m0_s_p0", "m0_s_p1"] },
@@ -161,8 +263,10 @@
     "s1": { "type": "cubicbezier", "points": ["p1", "p2", "p3", "p4"] },
     "s2": { "type": "cubicbezier", "points": ["p5", "p6", "p7", "p8"] },
     "s3": { "type": "cubicbezier", "points": ["p8", "p11", "p10", "p5"] },
+    "s4": { "type": "joiner", "points": ["p21", "p20", "p16", "p15"] },
     "s5": { "type": "cubicbezier", "points": ["p16", "p15", "p14", "p13"] },
-    "s6": { "type": "cubicbezier", "points": ["p13", "p17", "p18", "p19"] }
+    "s6": { "type": "cubicbezier", "points": ["p13", "p17", "p18", "p19"] },
+    "s7": { "type": "joiner", "points": ["p18", "p19", "llj_p1", "llj_p0"] }
   },
   "muscles": {
     "m0": { "group": "feature", "label": "m00", "spline": "m0_s" },
@@ -219,7 +323,6 @@
             "color": "#404040"
           }
         }
-
       ]
     },
     {
@@ -240,6 +343,68 @@
             "endwidth": 1,
             "alpha": 1,
             "color": "#404040"
+          }
+        },
+        {
+          "id": "f3",
+          "spline": "s3",
+          "label": "lowerlid",
+          "alpha": 1,
+          "strokestyle": {
+            "type": "brush",
+            "startwidth": 1,
+            "maxwidth": 2,
+            "endwidth": 1,
+            "alpha": 1,
+            "color": "#404040"
+          }
+        }
+      ]
+    },
+    {
+      "label": "mouth",
+      "stroked": true,
+      "filled": true,
+      "mirrored": true,
+      "segments": [
+        {
+          "id": "f4",
+          "spline": "s4",
+          "label": "upperlipjoiner",
+          "strokestyle": {
+            "type": "basic",
+            "width": 4,
+            "color": "#222222"
+          }
+        },
+        {
+          "id": "f5",
+          "spline": "s5",
+          "label": "upperlip",
+          "strokestyle": {
+            "type": "basic",
+            "width": 4,
+            "color": "#222222"
+          }
+        },
+        {
+          "id": "f6",
+          "spline": "s6",
+          "label": "lowerlip",
+          "strokestyle": {
+            "type": "basic",
+            "width": 4,
+            "color": "#222222"
+          }
+        },
+        {
+          "id": "f7",
+          "spline": "s7",
+          "label": "lowerlipjoiner",
+          "strokestyle": {
+            "type": "basic",
+            "width": 4,
+            "color": "#222222"
           }
         }
       ]
