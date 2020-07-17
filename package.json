@@ -1,0 +1,9 @@
+{
+  "name": "@grimace/facedata",
+  "version": "2.0-alpha",
+  "main": "index.js",
+  "repository": "git@github.com:grimace-project/facedata.git",
+  "author": "Oliver Spindler <os@oliverspindler.com>",
+  "license": "MIT",
+  "private": true
+}
